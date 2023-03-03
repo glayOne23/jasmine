@@ -1,0 +1,155 @@
+{% extends 'layouts/base.html' %}
+{% load static %}
+
+{% block title %}Daftar Buku{% endblock title %}
+
+{% block content %}
+<main id="main">
+    
+    <!-- ======= Breadcrumbs ======= -->
+    <div class="breadcrumbs">
+        <nav>
+          <div class="container">
+            <ol>
+              <li><a href="{% url 'landingpage:buku' %}">Buku</a></li>
+              <li>Buku Show</li>
+            </ol>
+          </div>
+        </nav>
+      </div><!-- End Breadcrumbs -->
+
+
+    <!-- ======= Blog Section ======= -->
+    <section id="blog" class="blog">
+        <div class="container" data-aos="fade-up">
+  
+          <div class="row g-5">
+
+            <!-- ======= Searching ======= -->
+            <div class="col-lg-4 order-sm-2 order-lg-1">
+  
+                <div class="sidebar">
+    
+                  <div class="sidebar-item search-form">
+                    <h3 class="sidebar-title">Cari Buku</h3>
+                    <form action="" class="mt-3">
+                      <input type="text">
+                      <button type="submit"><i class="bi bi-search"></i></button>
+                    </form>
+                  </div><!-- End sidebar search formn-->
+    
+                  <div class="sidebar-item categories">
+                    <h3 class="sidebar-title">Categories</h3>
+                    <ul class="mt-3">
+                      <li>
+                        <input type="checkbox" class="form-check-input" name="" id="">
+                        <a href="#">General <span>(25)</span></a>
+                    </li>
+                      <li>
+                        <input type="checkbox" class="form-check-input" name="" id="">
+                        <a href="#">Lifestyle <span>(12)</span></a>
+                    </li>
+                      <li>
+                        <input type="checkbox" class="form-check-input" name="" id="">
+                        <a href="#">Travel <span>(5)</span></a>
+                    </li>
+                      <li>
+                        <input type="checkbox" class="form-check-input" name="" id="">
+                        <a href="#">Design <span>(22)</span></a>
+                    </li>
+                      <li>
+                        <input type="checkbox" class="form-check-input" name="" id="">
+                        <a href="#">Creative <span>(8)</span></a>
+                    </li>
+                      <li>
+                        <input type="checkbox" class="form-check-input" name="" id="">
+                        <a href="#">Educaion <span>(14)</span></a>
+                    </li>
+                    </ul>
+                  </div><!-- End sidebar categories-->
+        
+                </div><!-- End Blog Sidebar -->
+    
+            </div>            
+            <!-- ======= End Searching ======= -->
+
+
+            <!-- ======= List Books ======= -->
+            <div class="col-lg-8 order-sm-1 order-lg-2 team">
+                <div class="row gy-4">
+
+                  <div class="col-12 d-flex" data-aos="fade-up" data-aos-delay="100">
+                    <div class="row member">
+                      <div class="col-sm-12 col-md-6">                        
+                          <img src="{% static 'impact/assets/img/portfolio/books-1.jpg' %}" class="img-fluid" alt="">                      
+                      </div>
+                      <div class="col-xs-12 col-md-6">
+                        <h4>Buku Pendidikan Bahasa Indonesia</h4>
+                        <p>Novia Lestari, S.Kom., M.Kom</p>
+                        <h4 class="text-success">Rp 35.000</h4>
+                        <hr>                        
+                        <div style="text-align: left;">
+                            <table>
+                              <tr>
+                                <td>Stok</td>
+                                <td>:</td>
+                                <td>1</td>
+                              </tr>                                                                                                                                   
+                              <tr>
+                                <td>ISBN</td>
+                                <td>:</td>
+                                <td>4132762 2941 41324</td>
+                              </tr>
+                              <tr>
+                                <td>Ukuran</td>
+                                <td>:</td>
+                                <td>23 cm x 34 cm</td>
+                              </tr>                              
+                              <tr>
+                                <td>Format</td>
+                                <td>:</td>
+                                <td>Soft Cover</td>
+                              </tr>
+                              <tr>
+                                <td>Halaman</td>
+                                <td>:</td>
+                                <td>253 Halaman</td>
+                              </tr>            
+                              <tr>
+                                <td>Tahun Terbit</td>
+                                <td>:</td>
+                                <td>2023</td>
+                              </tr>     
+                              <tr>
+                                <td>Cetakan ke</td>
+                                <td>:</td>
+                                <td>1</td>
+                              </tr>
+                            </table>                            
+                          </div> 
+                          
+                          <hr>
+                          <div style="text-align: left;">
+                            Sinopsis                            
+                            <p>Buku ini berjudul Evaluasi Pembelajaran Bahasa Indonesia Berbasis Teks.   Dengan judul ini, sudah tergambar bahwa isi buku ini berupa paparan tentang berbagai teknik evaluasi pada mata pelajaran Bahasa Indonesia dalam teks-teks tertentu. Berdasarkan Kurikulum 2013 maupun Kurikulum Merdeka, pembelajaran Bahasa Indonesia di sekolah berdasarkan teks. Oleh karena itu, evaluasi dalam buku ini juga disusun berdasarkan teks-teks tertentu. Teknik evaluasi pada buku ini merupakan alternatif pada teks-teks tertentu. Belum semua teks dalam pelajaran Bahasa Indonesia dipaparkan dalam buku ini. Semoga paparan tentang evaluasi pada teks-teks yang lain bisa segera menyusul dalam buku berikutnya.</p>
+                          </div>
+                          
+                      </div>
+                    </div>
+                  </div><!-- End Team Member -->
+
+                </div>
+                
+            </div>
+            <!-- ======= End List Books ======= -->
+              
+          </div>
+  
+        </div>
+    </section><!-- End Blog Details Section -->      
+
+</main>
+  
+{% endblock content %}
+
+

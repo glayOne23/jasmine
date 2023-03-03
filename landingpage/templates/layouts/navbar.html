@@ -31,7 +31,7 @@
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="{% if page == 'beranda' %}active{% endif %}" href="{% url 'landingpage:beranda' %}#hero">Beranda</a></li>
-          <li><a class="{% if page == 'buku.index' %}active{% endif %}" href="{% url 'landingpage:buku.index' %}">Buku</a></li>
+          <li><a class="{% if page == 'buku' %}active{% endif %}" href="{% url 'landingpage:buku' %}">Buku</a></li>
           <li><a href="{% url 'landingpage:beranda' %}#penerbitan">Penerbitan & Cetak</a></li>
           <li><a href="#">Tentang Kami</a></li>
         </ul>

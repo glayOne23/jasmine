@@ -9,7 +9,12 @@ from landingpage.views import (
 app_name= 'landingpage'
 
 urlpatterns = [
-    path('', landingpage.beranda, name='beranda'),
-    path('buku/', buku.index, name='buku.index'),
+    path('', landingpage.beranda, name='beranda'),    
+    path('buku/', include([        
+        path('', buku.index, name='buku'),
+        # path('create/', buku.SetReviewerView.as_view(), name='buku.create'),
+        # path('<int:id>/update/', buku.SetReviewerView.as_view(), name='buku.update'),
+        path('<int:id>/', buku.show, name='buku'),
+    ])),            
 ]
 
