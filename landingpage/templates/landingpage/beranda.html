@@ -14,7 +14,7 @@
             <h2>Selamat Datang di Penerbitan & Percetakan Jasmine</span></h2>
             <p>Mari bergabung bersama kami untuk menerbitkan buku yang bermutu, berkualitas dan sesuai dengan kaidah akademik.</p>
             <div class="d-flex justify-content-center justify-content-lg-start">
-            <a href="#about" class="btn-get-started">Mulai</a>
+            <a href="#penerbitan" class="btn-get-started">Terbitkan Tulisanmu!</a>
             <!-- <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a> -->
             </div>
         </div>
@@ -31,9 +31,11 @@
             <div class="col-xl-12 col-md-12 blog" data-aos="fade-up" data-aos-delay="100">
                 <div class="icon-box sidebar">                    
                     <div class="sidebar-item search-form">                        
-                        <form action="" class="mt-3">
-                          <input type="text" placeholder="Cari Buku">
-                          <button type="submit"><i class="bi bi-search"></i></button>
+                        <form action="{% url 'landingpage:buku' %}" class="mt-3">
+                            <div>
+                                <input type="text" placeholder="Cari Buku" name="search">
+                                <button type="submit"><i class="bi bi-search"></i></button>
+                            </div>
                         </form>
                     </div><!-- End sidebar search formn-->
                 </div>

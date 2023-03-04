@@ -34,7 +34,15 @@
 
 
             <!-- ======= List Books ======= -->
-            <div class="col-lg-8">
+            <div class="col-lg-8">              
+                <div class="mb-2">
+                  <span>
+                    Menampilkan {{tampilkan.from|rupiah}} - {{tampilkan.to|rupiah}} buku dari total {{tampilkan.total|rupiah}} 
+                    {% if search_text %}
+                      untuk <strong>"{{search_text}}"</strong>
+                    {% endif %}                    
+                    </span>
+                </div>              
                 <div class="row gy-4 posts-list">
                     {% for buku in bukus %}
                         <div class="col-xl-4 col-md-6">

@@ -8,8 +8,22 @@ from buku import repositories as repo
 def index(request):  
   context = {}
 
+  # ===[GET Search]===      
+  search_text = request.GET.get('search', '')
+  context['search_text'] = search_text
+  search_kategori = request.GET.getlist('kategori')
+  context['search_kategori'] = search_kategori
+
   # ===[Fetch Data]===      
-  bukus_data = repo.buku.all_revert()  
+  # by text
+  if search_text: 
+    bukus_data = repo.buku.search(search_text)
+  else: 
+    bukus_data = repo.buku.all_revert()  
+  # by kategori
+  if search_kategori:
+    bukus_data = bukus_data.filter(kategoris__id__in=search_kategori)
+    
   kategoris_data = repo.kategori.limit(13)
   context['kategoris'] = [
     {
@@ -21,9 +35,17 @@ def index(request):
   ]
 
   # ===[Fetch Paginator]===      
+  per_page = 21
   page_number = request.GET.get('page', 1)
-  paginator = Paginator(bukus_data, 21)
-  context['bukus'] = paginator.get_page(page_number)
+  paginator = Paginator(bukus_data, per_page)
+  bukus = paginator.get_page(page_number)
+  context['bukus'] = bukus  
+  dari = bukus.number if bukus.number == 1 else ((bukus.number-1) * per_page) + 1
+  context['tampilkan'] = {
+    'from': dari,
+    'to': bukus.object_list.count() if bukus.number == 1 else dari + bukus.object_list.count() - 1,
+    'total': bukus_data.count()
+  }
 
   # ===[Render Template]===
   context['page'] = 'buku'

@@ -2354,7 +2354,7 @@ section {
   margin-top: 40px;
 }
 
-.blog .sidebar .search-form form {
+.blog .sidebar .search-form div {
   background: #fff;
   border: 1px solid rgba(34, 34, 34, 0.3);
   padding: 5px 10px;
@@ -2362,18 +2362,18 @@ section {
   border-radius: 50px;
 }
 
-.blog .sidebar .search-form form input[type=text] {
+.blog .sidebar .search-form div input[type=text] {
   border: 0;
   padding: 4px;
   border-radius: 50px;
   width: calc(100% - 60px);
 }
 
-.blog .sidebar .search-form form input[type=text]:focus {
+.blog .sidebar .search-form input[type=text]:focus {
   outline: none;
 }
 
-.blog .sidebar .search-form form button {
+.blog .sidebar .search-form div button {
   position: absolute;
   top: 0;
   right: 0;
@@ -2390,11 +2390,11 @@ section {
   line-height: 0;
 }
 
-.blog .sidebar .search-form form button i {
+.blog .sidebar .search-form div button i {
   line-height: 0;
 }
 
-.blog .sidebar .search-form form button:hover {
+.blog .sidebar .search-form div button:hover {
   background: rgba(0, 168, 89, 0.8);
 }
 
