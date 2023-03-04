@@ -45,11 +45,16 @@
                       </div>
                       <div class="col-xs-12 col-md-6">
                         <h4>{{buku.judul}}</h4>
-                        <p>Novia Lestari, S.Kom., M.Kom</p>
+                        <p>{% for author in buku.authors.all %}{{author}}, {% endfor %}</p>
                         <h4 class="text-success">Rp {{buku.harga|rupiah}}</h4>
                         <hr>                        
                         <div style="text-align: left;">
-                            <table>
+                            <table>                              
+                              <tr>
+                                <td>Ketegori</td>
+                                <td>:</td>
+                                <td>{% for kategori in buku.kategoris.all %}{{kategori}}, {% endfor %}</td>
+                              </tr>                                                                                                                                                                 
                               <tr>
                                 <td>Stok</td>
                                 <td>:</td>

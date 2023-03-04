@@ -44,13 +44,21 @@
                                   <!-- <img src="{% static 'impact/assets/img/portfolio/books-1.jpg' %} " alt="" class="img-fluid"> -->
                                   <img src="{{buku.cover_url}}" alt="" class="img-fluid">
                               </div>
-                  
-                              <p class="post-category"><a href="">{{buku.kategoris_set.all}}</a></p>
-                  
+
                               <h2 class="title">
-                                  <a href="{% url 'landingpage:buku' buku.id %}">{{buku.judul}}</a>
-                              </h2>
-                  
+                                <a href="{% url 'landingpage:buku' buku.id %}">{{buku.judul}}</a>
+                              </h2>                              
+                              
+                              <p class="post-category"><a href="">
+                                {% for kategori in buku.kategoris.all %}
+                                {% if kategori %}                                                                
+                                  <span class="badge bg-primary-color">
+                                    {{kategori}}
+                                  </span>
+                                {% endif %}
+                                {% endfor %}
+                              </a></p>
+                                                                  
                               <div class="d-flex align-items-center">                            
                                   <div class="post-meta">
                                       <p class="post-date">
