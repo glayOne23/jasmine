@@ -1,5 +1,6 @@
 {% extends 'layouts/base.html' %}
 {% load static %}
+{% load angka %}
 
 {% block title %}Beranda{% endblock title %}
 
@@ -57,50 +58,37 @@
                 <p>Kami menyediakan berbagai macam buku berkualitas untuk anda</p>
             </div>
 
-            <div class="portfolio-isotope" data-portfolio-filter="*" data-portfolio-layout="masonry" data-portfolio-sort="original-order" data-aos="fade-up" data-aos-delay="100">
+            <div class="blog" data-portfolio-filter="*" data-portfolio-layout="masonry" data-portfolio-sort="original-order" data-aos="fade-up" data-aos-delay="100">
                 
-                <div class="row gy-4 portfolio-container">
+                <div class="row gy-4 posts-list">
 
-                <div class="col-xl-4 col-md-6 portfolio-item filter-app">
-                    <div class="portfolio-wrap">
-                    <a href="{% static 'impact/assets/img/portfolio/books-1.jpg' %} " data-gallery="portfolio-gallery-app" class="glightbox"><img src="{% static 'impact/assets/img/portfolio/books-1.jpg' %} " class="img-fluid" alt=""></a>
-                    <div class="portfolio-info">
-                        <h4><a href="portfolio-details.html" title="More Details">App 1</a></h4>
-                        <p>Lorem ipsum, dolor sit amet consectetur</p>
-                    </div>
-                    </div>
-                </div><!-- End Portfolio Item -->
-
-                <div class="col-xl-4 col-md-6 portfolio-item filter-app">
-                    <div class="portfolio-wrap">
-                    <a href="{% static 'impact/assets/img/portfolio/books-3.jpg' %} " data-gallery="portfolio-gallery-app" class="glightbox"><img src="{% static 'impact/assets/img/portfolio/books-3.jpg' %} " class="img-fluid" alt=""></a>
-                    <div class="portfolio-info">
-                        <h4><a href="portfolio-details.html" title="More Details">Product 1</a></h4>
-                        <p>Lorem ipsum, dolor sit amet consectetur</p>
-                    </div>
-                    </div>
-                </div><!-- End Portfolio Item -->
-
-                <div class="col-xl-4 col-md-6 portfolio-item filter-branding">
-                    <div class="portfolio-wrap">
-                    <a href="{% static 'impact/assets/img/portfolio/books-2.jpg' %} " data-gallery="portfolio-gallery-app" class="glightbox"><img src="{% static 'impact/assets/img/portfolio/books-2.jpg' %} " class="img-fluid" alt=""></a>
-                    <div class="portfolio-info">
-                        <h4><a href="portfolio-details.html" title="More Details">Branding 1</a></h4>
-                        <p>Lorem ipsum, dolor sit amet consectetur</p>
-                    </div>
-                    </div>
-                </div><!-- End Portfolio Item -->
-
-                <div class="col-xl-4 col-md-6 portfolio-item filter-branding">
-                    <div class="portfolio-wrap">
-                    <a href="{% static 'impact/assets/img/portfolio/books-2.jpg' %} " data-gallery="portfolio-gallery-app" class="glightbox"><img src="{% static 'impact/assets/img/portfolio/books-2.jpg' %} " class="img-fluid" alt=""></a>
-                    <div class="portfolio-info">
-                        <h4><a href="portfolio-details.html" title="More Details">Branding 1</a></h4>
-                        <p>Lorem ipsum, dolor sit amet consectetur</p>
-                    </div>
-                    </div>
-                </div><!-- End Portfolio Item -->            
-
+                    {% for buku in bukus %}
+                        <div class="col-xl-3 col-md-6">
+                            <article>
+                
+                              <div class="post-img">
+                                  <!-- <img src="{% static 'impact/assets/img/portfolio/books-1.jpg' %} " alt="" class="img-fluid"> -->
+                                  <img src="{{buku.cover_url}}" alt="" class="img-fluid">
+                              </div>
+                  
+                              <p class="post-category"><a href="">{{buku.kategoris_set.all}}</a></p>
+                  
+                              <h2 class="title">
+                                  <a href="{% url 'landingpage:buku' buku.id %}">{{buku.judul}}</a>
+                              </h2>
+                  
+                              <div class="d-flex align-items-center">                            
+                                  <div class="post-meta">
+                                      {% comment %} <p class="post-author-list">Rp {{buku.harga|rupiah}}</p> {% endcomment %}
+                                      <p class="post-date">
+                                          {{buku.sinopsis|truncatechars:100}}
+                                      </p>
+                                  </div>
+                              </div>
+                
+                            </article>
+                        </div><!-- End post list item -->
+                    {% endfor %}
 
                 </div><!-- End Portfolio Container -->
 

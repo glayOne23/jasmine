@@ -1,5 +1,6 @@
 {% extends 'layouts/base.html' %}
 {% load static %}
+{% load angka %}
 
 {% block title %}Daftar Buku{% endblock title %}
 
@@ -27,49 +28,7 @@
 
             <!-- ======= Searching ======= -->
             <div class="col-lg-4">
-  
-                <div class="sidebar">
-    
-                  <div class="sidebar-item search-form">
-                    <h3 class="sidebar-title">Cari Buku</h3>
-                    <form action="" class="mt-3">
-                      <input type="text">
-                      <button type="submit"><i class="bi bi-search"></i></button>
-                    </form>
-                  </div><!-- End sidebar search formn-->
-    
-                  <div class="sidebar-item categories">
-                    <h3 class="sidebar-title">Categories</h3>
-                    <ul class="mt-3">
-                      <li>
-                        <input type="checkbox" class="form-check-input" name="" id="">
-                        <a href="#">General <span>(25)</span></a>
-                    </li>
-                      <li>
-                        <input type="checkbox" class="form-check-input" name="" id="">
-                        <a href="#">Lifestyle <span>(12)</span></a>
-                    </li>
-                      <li>
-                        <input type="checkbox" class="form-check-input" name="" id="">
-                        <a href="#">Travel <span>(5)</span></a>
-                    </li>
-                      <li>
-                        <input type="checkbox" class="form-check-input" name="" id="">
-                        <a href="#">Design <span>(22)</span></a>
-                    </li>
-                      <li>
-                        <input type="checkbox" class="form-check-input" name="" id="">
-                        <a href="#">Creative <span>(8)</span></a>
-                    </li>
-                      <li>
-                        <input type="checkbox" class="form-check-input" name="" id="">
-                        <a href="#">Educaion <span>(14)</span></a>
-                    </li>
-                    </ul>
-                  </div><!-- End sidebar categories-->
-        
-                </div><!-- End Blog Sidebar -->
-    
+              {% include "landingpage/buku/parts/sidebar.html" %}
             </div>            
             <!-- ======= End Searching ======= -->
 
@@ -77,35 +36,36 @@
             <!-- ======= List Books ======= -->
             <div class="col-lg-8">
                 <div class="row gy-4 posts-list">
-                    {% for data in books %}
+                    {% for buku in bukus %}
                         <div class="col-xl-4 col-md-6">
                             <article>
                 
-                            <div class="post-img">
-                                <img src="{% static 'impact/assets/img/portfolio/books-1.jpg' %} " alt="" class="img-fluid">
-                            </div>
-                
-                            <p class="post-category"><a href="">Politics</a></p>
-                
-                            <h2 class="title">
-                                <a href="{% url 'landingpage:buku' 1 %}">Dolorum optio tempore voluptas dignissimos</a>
-                            </h2>
-                
-                            <div class="d-flex align-items-center">                            
-                                <div class="post-meta">
-                                    <p class="post-date">
-                                        <time datetime="2022-01-01">Jan 1, 2022</time>
-                                    </p>
-                                    <p class="post-author-list">Rp 39.000</p>
-                                </div>
-                            </div>
+                              <div class="post-img">
+                                  <!-- <img src="{% static 'impact/assets/img/portfolio/books-1.jpg' %} " alt="" class="img-fluid"> -->
+                                  <img src="{{buku.cover_url}}" alt="" class="img-fluid">
+                              </div>
+                  
+                              <p class="post-category"><a href="">{{buku.kategoris_set.all}}</a></p>
+                  
+                              <h2 class="title">
+                                  <a href="{% url 'landingpage:buku' buku.id %}">{{buku.judul}}</a>
+                              </h2>
+                  
+                              <div class="d-flex align-items-center">                            
+                                  <div class="post-meta">
+                                      <p class="post-date">
+                                          <time datetime="2022-01-01">{{buku.created_at}}</time>
+                                      </p>
+                                      <p class="post-author-list">Rp {{buku.harga|rupiah}}</p>
+                                  </div>
+                              </div>
                 
                             </article>
                         </div><!-- End post list item -->
                     {% endfor %}
                 </div>
 
-                
+                {% include "landingpage/buku/parts/pagination.html" %}
             </div>
             <!-- ======= End List Books ======= -->
               
