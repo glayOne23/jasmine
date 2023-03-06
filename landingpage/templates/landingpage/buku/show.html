@@ -42,9 +42,12 @@
                       <div class="col-sm-12 col-md-6">                        
                           <!-- <img src="{% static 'impact/assets/img/portfolio/books-1.jpg' %}" class="img-fluid" alt="">                       -->
                           {% if buku.cover %}
-                            <img src="{{ MEDIA_URL }}/{{buku.cover}}" class="img-fluid" alt="">                      
+                            <img src="{{ MEDIA_URL }}/{{buku.cover}}" class="img-fluid" alt="buku tidak ada">                      
                           {% else %}
-                            <img src="{{buku.cover_url}}" class="img-fluid" alt="">                      
+                            <img src="{{buku.cover_url}}" class="img-fluid" alt="buku tidak ada">                      
+                          {% endif %}
+                          {% if buku.isi_buku %}                            
+                            <a href="{{MEDIA_URL}}/{{buku.isi_buku}}" target="_blank" class="btn btn-success mt-2">Lihat Buku</a>
                           {% endif %}
                       </div>
                       <div class="col-xs-12 col-md-6">
@@ -55,10 +58,30 @@
                         <div style="text-align: left;">
                             <table>                              
                               <tr>
-                                <td>Ketegori</td>
+                                <td>Kategori</td>
                                 <td>:</td>
                                 <td>{% for kategori in buku.kategoris.all %}{{kategori}}, {% endfor %}</td>
                               </tr>                                                                                                                                                                 
+                              <tr>
+                                <td>Kelompok Pembaca</td>
+                                <td>:</td>
+                                <td>{{buku.get_kelompok_pembaca_display}}</td>
+                              </tr>
+                              <tr>
+                                <td>Jenis Pustaka</td>
+                                <td>:</td>
+                                <td>{{buku.get_jenis_pustaka_display}}</td>
+                              </tr>                              
+                              <tr>
+                                <td>Kategori Jenis</td>
+                                <td>:</td>
+                                <td>{{buku.get_kategori_jenis_display}}</td>
+                              </tr>                                                            
+                              <tr>
+                                <td>Kategori Buku</td>
+                                <td>:</td>
+                                <td>{{buku.get_kategori_buku_display}}</td>
+                              </tr>                                                                                          
                               <tr>
                                 <td>Stok</td>
                                 <td>:</td>

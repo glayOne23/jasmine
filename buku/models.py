@@ -1,6 +1,29 @@
 from django.db import models
 
 
+KELOMPOK_PEMBACA = [
+    (1, 'Anak'),
+    (2, 'Dewasa'),
+    (3, 'Semua Umur'),    
+]
+
+JENIS_PUSTAKA = [
+    (1, 'Fiksi'),
+    (2, 'Non Fiksi'),      
+]
+
+KATEGORI_JENIS = [
+    (1, 'Terjemahan'),
+    (2, 'Non Terjemahan'),      
+]
+
+KATEGORI_BUKU = [
+    (1, 'Lepas'),
+    (2, 'Berjilid'),      
+]
+
+
+
 class Author(models.Model):
     nama = models.TextField()
     created_at = models.DateTimeField(auto_now_add=True)
@@ -36,6 +59,12 @@ class Buku(models.Model):
     cover = models.FileField(upload_to ='files/cover/', blank=True, null=True)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
+    # baru
+    kelompok_pembaca = models.IntegerField(null=True, choices=KELOMPOK_PEMBACA)
+    jenis_pustaka = models.IntegerField(null=True, choices=JENIS_PUSTAKA)
+    kategori_jenis = models.IntegerField(null=True, choices=KATEGORI_JENIS)
+    kategori_buku = models.IntegerField(null=True, choices=KATEGORI_BUKU)
+    isi_buku = models.FileField(upload_to ='files/isibuku/', blank=True, null=True)
 
     def __str__(self):
         return F"{self.judul} {self.tahun}"
