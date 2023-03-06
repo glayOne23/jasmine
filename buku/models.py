@@ -33,7 +33,7 @@ class Buku(models.Model):
     authors = models.ManyToManyField(Author)
     kategoris = models.ManyToManyField(Kategori)
     cover_url = models.CharField(max_length=225, blank=True, null=True)
-    cover = models.FileField(upload_to ='cover/', blank=True, null=True)
+    cover = models.FileField(upload_to ='files/cover/', blank=True, null=True)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
 
