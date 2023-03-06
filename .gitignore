@@ -7,3 +7,5 @@ media/*
 !media/readme.txt
 .idea/
 docker-compose.yml
+settings.py
+jasmine/settings.py
