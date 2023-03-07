@@ -71,7 +71,7 @@
                               <div class="post-img">
                                   <!-- <img src="{% static 'impact/assets/img/portfolio/books-1.jpg' %} " alt="" class="img-fluid"> -->
                                   {% if buku.cover %}
-                                  <img src="{{ MEDIA_URL }}/{{buku.cover}}" alt="" class="img-fluid">
+                                  <img src="{{ MEDIA_URL }}{{buku.cover}}" alt="" class="img-fluid">
                                   {% else %}
                                     <img src="{{buku.cover_url}}" alt="" class="img-fluid">
                                   {% endif %}

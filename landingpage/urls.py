@@ -15,6 +15,7 @@ urlpatterns = [
         # path('create/', buku.SetReviewerView.as_view(), name='buku.create'),
         # path('<int:id>/update/', buku.SetReviewerView.as_view(), name='buku.update'),
         path('<int:id>/', buku.show, name='buku'),
+        path('<int:id>/baca_pdf', buku.baca_pdf, name='buku.baca_pdf'),
     ])),            
 ]
 

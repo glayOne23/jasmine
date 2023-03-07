@@ -71,3 +71,16 @@ def show(request, id):
   # ===[Render Template]===
   context['page'] = 'buku'
   return render(request, 'landingpage/buku/show.html', context)
+
+
+def baca_pdf(request, id):
+  context = {}
+
+  # ===[Fetch Data]===      
+  buku = repo.buku.get(id)  
+
+  # ===[content]===    
+  with open(buku.isi_buku.path, 'rb') as pdf:
+      response = HttpResponse(pdf.read(), content_type='application/pdf')
+      response['Content-Disposition'] = 'inline;filename=mypdf.pdf'
+      return response
