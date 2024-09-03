@@ -10,7 +10,7 @@ from buku.models import *
 class Command(BaseCommand):
     help = 'Import Buku dari CSV'    
 
-    @transaction.atomic
+    # @transaction.atomic
     def handle(self, *args, **kwargs):        
         with open('/home/btiums/Documents/Projects/django/jasmine/data/archive/books.csv') as file_obj:
             

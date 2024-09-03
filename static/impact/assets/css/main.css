@@ -47,7 +47,7 @@ a:hover {
 }
 
 .bg-primary-color {
-  background-color: var(--color-primary);  
+  background-color: var(--color-primary);
 }
 
 h1,
@@ -1706,6 +1706,12 @@ section {
   overflow: hidden;
 }
 
+.recent-posts .post-img-2 {
+  max-height: 450px;
+  margin: -30px -30px 15px -30px;
+  overflow: hidden;
+}
+
 .recent-posts .post-category {
   font-size: 16px;
   color: #6f6f6f;
@@ -2105,6 +2111,12 @@ section {
 
 .blog .posts-list .post-img {
   max-height: 240px;
+  margin: -30px -30px 15px -30px;
+  overflow: hidden;
+}
+
+.blog .posts-list .post-img-2 {
+  max-height: 450px;
   margin: -30px -30px 15px -30px;
   overflow: hidden;
 }

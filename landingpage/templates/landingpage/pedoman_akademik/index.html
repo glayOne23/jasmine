@@ -1,0 +1,59 @@
+{% extends 'layouts/base.html' %}
+{% load static %}
+{% load angka %}
+
+{% block title %}Pedoman Akademik{% endblock title %}
+
+{% block content %}
+<main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <div class="breadcrumbs">
+        <nav>
+          <div class="container">
+            <ol>
+              <li><a href="{% url 'landingpage:akademik.index' %}">Pedoman Akademik</a></li>
+              <li>Daftar Pedoman Akademik</li>
+            </ol>
+          </div>
+        </nav>
+      </div><!-- End Breadcrumbs -->
+
+
+    <!-- ======= Blog Details Section ======= -->
+    <section id="blog" class="blog">
+        {% for kategori in kategoris %}
+            <div class="container" data-aos="fade-up">
+                <div class="sidebar">
+                    <h2 class="sidebar-title">{{kategori.nama}}</h2>
+
+                    <hr>
+
+                    <div class="row gy-4 posts-list">
+                        {% for buku in kategori.bukuanyflip_set.all %}
+                            <div class="col-xl-3 col-md-6">
+                                <article>
+                                    <div class="post-img-2" onclick="window.location.href='{% url 'landingpage:akademik.show' buku.id %}'" style="cursor: pointer;">
+                                        {% if buku.gambar %}
+                                            <img src="{{buku.gambar.url}}" alt="" class="img-fluid">
+                                        {% endif %}
+                                    </div>
+
+                                    <a href="{% url 'landingpage:akademik.show' buku.id %}">{{buku.nama}}</a>
+
+                                </article>
+                            </div><!-- End post list item -->
+                        {% endfor %}
+                    </div>
+
+
+                </div><!-- End Blog Sidebar -->
+            </div>
+        {% endfor %}
+    </section><!-- End Blog Details Section -->
+
+</main>
+
+{% endblock content %}
+
+

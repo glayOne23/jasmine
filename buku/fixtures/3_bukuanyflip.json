@@ -1,0 +1,866 @@
+[
+{
+    "model": "buku.bukuanyflip",
+    "pk": 1,
+    "fields": {
+        "kategori": 1,
+        "lembaga": 1,
+        "nama": "BUKU PANDUAN FAKULTAS KEGURUAN DAN ILMU PENDIDIKAN 2019/2020",
+        "url": "https://anyflip.com/qvaza/fvqp/",
+        "created_at": "2024-08-28T03:34:54.580Z",
+        "updated_at": "2024-08-28T03:34:54.580Z"
+    }
+},
+{
+    "model": "buku.bukuanyflip",
+    "pk": 2,
+    "fields": {
+        "kategori": 1,
+        "lembaga": 2,
+        "nama": "BUKU PANDUAN FAKULTAS AGAMA ISLAM 2019/2020",
+        "url": "https://anyflip.com/qvaza/rxdg/",
+        "created_at": "2024-08-28T03:34:54.591Z",
+        "updated_at": "2024-08-28T03:34:54.591Z"
+    }
+},
+{
+    "model": "buku.bukuanyflip",
+    "pk": 3,
+    "fields": {
+        "kategori": 1,
+        "lembaga": 3,
+        "nama": "BUKU PANDUAN FAKULTAS PSIKOLOGI 2019/2020",
+        "url": "https://anyflip.com/qvaza/cjet/",
+        "created_at": "2024-08-28T03:34:54.608Z",
+        "updated_at": "2024-08-28T03:34:54.608Z"
+    }
+},
+{
+    "model": "buku.bukuanyflip",
+    "pk": 4,
+    "fields": {
+        "kategori": 1,
+        "lembaga": 4,
+        "nama": "BUKU PANDUAN FAKULTAS KEDOKTERAN 2019/2020",
+        "url": "https://anyflip.com/qvaza/bcps/",
+        "created_at": "2024-08-28T03:34:54.613Z",
+        "updated_at": "2024-08-28T03:34:54.613Z"
+    }
+},
+{
+    "model": "buku.bukuanyflip",
+    "pk": 5,
+    "fields": {
+        "kategori": 1,
+        "lembaga": 5,
+        "nama": "BUKU PANDUAN FAKULTAS KOMUNIKASI DAN INFORMATIKA 2019/2020",
+        "url": "https://anyflip.com/qvaza/naej/",
+        "created_at": "2024-08-28T03:34:54.620Z",
+        "updated_at": "2024-08-28T03:34:54.620Z"
+    }
+},
+{
+    "model": "buku.bukuanyflip",
+    "pk": 6,
+    "fields": {
+        "kategori": 1,
+        "lembaga": 6,
+        "nama": "BUKU PANDUAN FAKULTAS GEOGRAFI 2019/2020",
+        "url": "https://anyflip.com/qvaza/blwj/",
+        "created_at": "2024-08-28T03:34:54.625Z",
+        "updated_at": "2024-08-28T03:34:54.625Z"
+    }
+},
+{
+    "model": "buku.bukuanyflip",
+    "pk": 7,
+    "fields": {
+        "kategori": 1,
+        "lembaga": 7,
+        "nama": "BUKU PANDUAN FAKULTAS TEKNIK 2019/2020",
+        "url": "https://anyflip.com/qvaza/xwdn/",
+        "created_at": "2024-08-28T03:34:54.630Z",
+        "updated_at": "2024-08-28T03:34:54.631Z"
+    }
+},
+{
+    "model": "buku.bukuanyflip",
+    "pk": 8,
+    "fields": {
+        "kategori": 1,
+        "lembaga": 8,
+        "nama": "BUKU PANDUAN FAKULTAS ILMU KESEHATAN 2019/2020",
+        "url": "https://anyflip.com/qvaza/yuei/",
+        "created_at": "2024-08-28T03:34:54.636Z",
+        "updated_at": "2024-08-28T03:34:54.636Z"
+    }
+},
+{
+    "model": "buku.bukuanyflip",
+    "pk": 9,
+    "fields": {
+        "kategori": 1,
+        "lembaga": 9,
+        "nama": "BUKU PANDUAN FAKULTAS EKONOMI DAN BISNIS 2019/2020",
+        "url": "https://anyflip.com/qvaza/xpzw/",
+        "created_at": "2024-08-28T03:34:54.641Z",
+        "updated_at": "2024-08-28T03:34:54.641Z"
+    }
+},
+{
+    "model": "buku.bukuanyflip",
+    "pk": 10,
+    "fields": {
+        "kategori": 1,
+        "lembaga": 10,
+        "nama": "BUKU PANDUAN FAKULTAS FARMASI 2019/2020",
+        "url": "https://anyflip.com/qvaza/vthv/",
+        "created_at": "2024-08-28T03:34:54.647Z",
+        "updated_at": "2024-08-28T03:34:54.647Z"
+    }
+},
+{
+    "model": "buku.bukuanyflip",
+    "pk": 11,
+    "fields": {
+        "kategori": 1,
+        "lembaga": 11,
+        "nama": "BUKU PANDUAN FAKULTAS HUKUM 2019/2020",
+        "url": "https://anyflip.com/qvaza/bnkk/",
+        "created_at": "2024-08-28T03:34:54.652Z",
+        "updated_at": "2024-08-28T03:34:54.652Z"
+    }
+},
+{
+    "model": "buku.bukuanyflip",
+    "pk": 12,
+    "fields": {
+        "kategori": 1,
+        "lembaga": 12,
+        "nama": "BUKU PANDUAN FAKULTAS KEDOKTERAN GIGI 2019/2020",
+        "url": "https://anyflip.com/qvaza/eqmz/",
+        "created_at": "2024-08-28T03:34:54.657Z",
+        "updated_at": "2024-08-28T03:34:54.657Z"
+    }
+},
+{
+    "model": "buku.bukuanyflip",
+    "pk": 13,
+    "fields": {
+        "kategori": 2,
+        "lembaga": 1,
+        "nama": "BUKU PANDUAN FAKULTAS KEGURUAN DAN ILMU PENDIDIKAN 2020/2021",
+        "url": "https://anyflip.com/qvaza/aulj/",
+        "created_at": "2024-08-28T03:34:54.663Z",
+        "updated_at": "2024-08-28T03:34:54.663Z"
+    }
+},
+{
+    "model": "buku.bukuanyflip",
+    "pk": 14,
+    "fields": {
+        "kategori": 2,
+        "lembaga": 2,
+        "nama": "BUKU PANDUAN FAKULTAS AGAMA ISLAM 2020/2021",
+        "url": "https://anyflip.com/qvaza/phxy/",
+        "created_at": "2024-08-28T03:34:54.668Z",
+        "updated_at": "2024-08-28T03:34:54.668Z"
+    }
+},
+{
+    "model": "buku.bukuanyflip",
+    "pk": 15,
+    "fields": {
+        "kategori": 2,
+        "lembaga": 3,
+        "nama": "BUKU PANDUAN FAKULTAS PSIKOLOGI 2020/2021",
+        "url": "https://anyflip.com/qvaza/jnwm/",
+        "created_at": "2024-08-28T03:34:54.674Z",
+        "updated_at": "2024-08-28T03:34:54.674Z"
+    }
+},
+{
+    "model": "buku.bukuanyflip",
+    "pk": 16,
+    "fields": {
+        "kategori": 2,
+        "lembaga": 4,
+        "nama": "BUKU PANDUAN FAKULTAS KEDOKTERAN 2020/2021",
+        "url": "https://anyflip.com/qvaza/nhsm/",
+        "created_at": "2024-08-28T03:34:54.680Z",
+        "updated_at": "2024-08-28T03:34:54.680Z"
+    }
+},
+{
+    "model": "buku.bukuanyflip",
+    "pk": 17,
+    "fields": {
+        "kategori": 2,
+        "lembaga": 5,
+        "nama": "BUKU PANDUAN FAKULTAS KOMUNIKASI DAN INFORMATIKA 2020/2021",
+        "url": "https://anyflip.com/qvaza/viln/",
+        "created_at": "2024-08-28T03:34:54.685Z",
+        "updated_at": "2024-08-28T03:34:54.685Z"
+    }
+},
+{
+    "model": "buku.bukuanyflip",
+    "pk": 18,
+    "fields": {
+        "kategori": 2,
+        "lembaga": 6,
+        "nama": "BUKU PANDUAN FAKULTAS GEOGRAFI 2020/2021",
+        "url": "https://anyflip.com/qvaza/ewxe/",
+        "created_at": "2024-08-28T03:34:54.691Z",
+        "updated_at": "2024-08-28T03:34:54.691Z"
+    }
+},
+{
+    "model": "buku.bukuanyflip",
+    "pk": 19,
+    "fields": {
+        "kategori": 2,
+        "lembaga": 7,
+        "nama": "BUKU PANDUAN FAKULTAS TEKNIK 2020/2021",
+        "url": "https://anyflip.com/qvaza/iopi/",
+        "created_at": "2024-08-28T03:34:54.696Z",
+        "updated_at": "2024-08-28T03:34:54.696Z"
+    }
+},
+{
+    "model": "buku.bukuanyflip",
+    "pk": 20,
+    "fields": {
+        "kategori": 2,
+        "lembaga": 8,
+        "nama": "BUKU PANDUAN FAKULTAS ILMU KESEHATAN 2020/2021",
+        "url": "https://anyflip.com/qvaza/kuxm/",
+        "created_at": "2024-08-28T03:34:54.701Z",
+        "updated_at": "2024-08-28T03:34:54.701Z"
+    }
+},
+{
+    "model": "buku.bukuanyflip",
+    "pk": 21,
+    "fields": {
+        "kategori": 2,
+        "lembaga": 9,
+        "nama": "BUKU PANDUAN FAKULTAS EKONOMI DAN BISNIS 2020/2021",
+        "url": "https://anyflip.com/qvaza/zsoe/",
+        "created_at": "2024-08-28T03:34:54.708Z",
+        "updated_at": "2024-08-28T03:34:54.708Z"
+    }
+},
+{
+    "model": "buku.bukuanyflip",
+    "pk": 22,
+    "fields": {
+        "kategori": 2,
+        "lembaga": 10,
+        "nama": "BUKU PANDUAN FAKULTAS FARMASI 2020/2021",
+        "url": "https://anyflip.com/qvaza/dlyo/",
+        "created_at": "2024-08-28T03:34:54.714Z",
+        "updated_at": "2024-08-28T03:34:54.714Z"
+    }
+},
+{
+    "model": "buku.bukuanyflip",
+    "pk": 23,
+    "fields": {
+        "kategori": 2,
+        "lembaga": 11,
+        "nama": "BUKU PANDUAN FAKULTAS HUKUM 2020/2021",
+        "url": "https://anyflip.com/qvaza/ifxh/",
+        "created_at": "2024-08-28T03:34:54.719Z",
+        "updated_at": "2024-08-28T03:34:54.719Z"
+    }
+},
+{
+    "model": "buku.bukuanyflip",
+    "pk": 24,
+    "fields": {
+        "kategori": 2,
+        "lembaga": 12,
+        "nama": "BUKU PANDUAN FAKULTAS KEDOKTERAN GIGI 2020/2021",
+        "url": "https://anyflip.com/qvaza/rvwl/",
+        "created_at": "2024-08-28T03:34:54.725Z",
+        "updated_at": "2024-08-28T03:34:54.725Z"
+    }
+},
+{
+    "model": "buku.bukuanyflip",
+    "pk": 25,
+    "fields": {
+        "kategori": 3,
+        "lembaga": 1,
+        "nama": "BUKU PANDUAN FAKULTAS KEGURUAN DAN ILMU PENDIDIKAN 2021/2022",
+        "url": "https://anyflip.com/qvaza/thrw/",
+        "created_at": "2024-08-28T03:34:54.731Z",
+        "updated_at": "2024-08-28T03:34:54.731Z"
+    }
+},
+{
+    "model": "buku.bukuanyflip",
+    "pk": 26,
+    "fields": {
+        "kategori": 3,
+        "lembaga": 2,
+        "nama": "BUKU PANDUAN FAKULTAS AGAMA ISLAM 2021/2022",
+        "url": "https://anyflip.com/qvaza/gioy/",
+        "created_at": "2024-08-28T03:34:54.736Z",
+        "updated_at": "2024-08-28T03:34:54.736Z"
+    }
+},
+{
+    "model": "buku.bukuanyflip",
+    "pk": 27,
+    "fields": {
+        "kategori": 3,
+        "lembaga": 3,
+        "nama": "BUKU PANDUAN FAKULTAS PSIKOLOGI 2021/2022",
+        "url": "https://anyflip.com/qvaza/qdww/",
+        "created_at": "2024-08-28T03:34:54.743Z",
+        "updated_at": "2024-08-28T03:34:54.743Z"
+    }
+},
+{
+    "model": "buku.bukuanyflip",
+    "pk": 28,
+    "fields": {
+        "kategori": 3,
+        "lembaga": 4,
+        "nama": "BUKU PANDUAN FAKULTAS KEDOKTERAN 2021/2022",
+        "url": "https://anyflip.com/qvaza/ppyn/",
+        "created_at": "2024-08-28T03:34:54.750Z",
+        "updated_at": "2024-08-28T03:34:54.750Z"
+    }
+},
+{
+    "model": "buku.bukuanyflip",
+    "pk": 29,
+    "fields": {
+        "kategori": 3,
+        "lembaga": 5,
+        "nama": "BUKU PANDUAN FAKULTAS KOMUNIKASI DAN INFORMATIKA 2021/2022",
+        "url": "https://anyflip.com/qvaza/eqep/",
+        "created_at": "2024-08-28T03:34:54.756Z",
+        "updated_at": "2024-08-28T03:34:54.756Z"
+    }
+},
+{
+    "model": "buku.bukuanyflip",
+    "pk": 30,
+    "fields": {
+        "kategori": 3,
+        "lembaga": 6,
+        "nama": "BUKU PANDUAN FAKULTAS GEOGRAFI 2021/2022",
+        "url": "https://anyflip.com/qvaza/liox/",
+        "created_at": "2024-08-28T03:34:54.761Z",
+        "updated_at": "2024-08-28T03:34:54.761Z"
+    }
+},
+{
+    "model": "buku.bukuanyflip",
+    "pk": 31,
+    "fields": {
+        "kategori": 3,
+        "lembaga": 7,
+        "nama": "BUKU PANDUAN FAKULTAS TEKNIK 2021/2022",
+        "url": "https://anyflip.com/qvaza/amaj/",
+        "created_at": "2024-08-28T03:34:54.766Z",
+        "updated_at": "2024-08-28T03:34:54.766Z"
+    }
+},
+{
+    "model": "buku.bukuanyflip",
+    "pk": 32,
+    "fields": {
+        "kategori": 3,
+        "lembaga": 8,
+        "nama": "BUKU PANDUAN FAKULTAS ILMU KESEHATAN 2021/2022",
+        "url": "https://anyflip.com/qvaza/uoar/",
+        "created_at": "2024-08-28T03:34:54.772Z",
+        "updated_at": "2024-08-28T03:34:54.772Z"
+    }
+},
+{
+    "model": "buku.bukuanyflip",
+    "pk": 33,
+    "fields": {
+        "kategori": 3,
+        "lembaga": 9,
+        "nama": "BUKU PANDUAN FAKULTAS EKONOMI DAN BISNIS 2021/2022",
+        "url": "https://anyflip.com/qvaza/japl/",
+        "created_at": "2024-08-28T03:34:54.778Z",
+        "updated_at": "2024-08-28T03:34:54.778Z"
+    }
+},
+{
+    "model": "buku.bukuanyflip",
+    "pk": 34,
+    "fields": {
+        "kategori": 3,
+        "lembaga": 10,
+        "nama": "BUKU PANDUAN FAKULTAS FARMASI 2021/2022",
+        "url": "https://anyflip.com/qvaza/sjkv/",
+        "created_at": "2024-08-28T03:34:54.784Z",
+        "updated_at": "2024-08-28T03:34:54.784Z"
+    }
+},
+{
+    "model": "buku.bukuanyflip",
+    "pk": 35,
+    "fields": {
+        "kategori": 3,
+        "lembaga": 11,
+        "nama": "BUKU PANDUAN FAKULTAS HUKUM 2021/2022",
+        "url": "https://anyflip.com/qvaza/avze/",
+        "created_at": "2024-08-28T03:34:54.788Z",
+        "updated_at": "2024-08-28T03:34:54.788Z"
+    }
+},
+{
+    "model": "buku.bukuanyflip",
+    "pk": 36,
+    "fields": {
+        "kategori": 3,
+        "lembaga": 12,
+        "nama": "BUKU PANDUAN FAKULTAS KEDOKTERAN GIGI 2021/2022",
+        "url": "https://anyflip.com/qvaza/zgfj/",
+        "created_at": "2024-08-28T03:34:54.795Z",
+        "updated_at": "2024-08-28T03:34:54.795Z"
+    }
+},
+{
+    "model": "buku.bukuanyflip",
+    "pk": 37,
+    "fields": {
+        "kategori": 4,
+        "lembaga": 1,
+        "nama": "BUKU PANDUAN FAKULTAS KEGURUAN DAN ILMU PENDIDIKAN 2022/2023",
+        "url": "https://anyflip.com/qvaza/tpdp/",
+        "created_at": "2024-08-28T03:34:54.800Z",
+        "updated_at": "2024-08-28T03:34:54.800Z"
+    }
+},
+{
+    "model": "buku.bukuanyflip",
+    "pk": 38,
+    "fields": {
+        "kategori": 4,
+        "lembaga": 2,
+        "nama": "BUKU PANDUAN FAKULTAS AGAMA ISLAM 2022/2023",
+        "url": "https://anyflip.com/qvaza/lzmd/",
+        "created_at": "2024-08-28T03:34:54.805Z",
+        "updated_at": "2024-08-28T03:34:54.805Z"
+    }
+},
+{
+    "model": "buku.bukuanyflip",
+    "pk": 39,
+    "fields": {
+        "kategori": 4,
+        "lembaga": 3,
+        "nama": "BUKU PANDUAN FAKULTAS PSIKOLOGI 2022/2023",
+        "url": "https://anyflip.com/qvaza/cymg/",
+        "created_at": "2024-08-28T03:34:54.810Z",
+        "updated_at": "2024-08-28T03:34:54.810Z"
+    }
+},
+{
+    "model": "buku.bukuanyflip",
+    "pk": 40,
+    "fields": {
+        "kategori": 4,
+        "lembaga": 4,
+        "nama": "BUKU PANDUAN FAKULTAS KEDOKTERAN 2022/2023",
+        "url": "https://anyflip.com/qvaza/khfb/",
+        "created_at": "2024-08-28T03:34:54.818Z",
+        "updated_at": "2024-08-28T03:34:54.818Z"
+    }
+},
+{
+    "model": "buku.bukuanyflip",
+    "pk": 41,
+    "fields": {
+        "kategori": 4,
+        "lembaga": 5,
+        "nama": "BUKU PANDUAN FAKULTAS KOMUNIKASI DAN INFORMATIKA 2022/2023",
+        "url": "https://anyflip.com/qvaza/haoc/",
+        "created_at": "2024-08-28T03:34:54.830Z",
+        "updated_at": "2024-08-28T03:34:54.830Z"
+    }
+},
+{
+    "model": "buku.bukuanyflip",
+    "pk": 42,
+    "fields": {
+        "kategori": 4,
+        "lembaga": 6,
+        "nama": "BUKU PANDUAN FAKULTAS GEOGRAFI 2022/2023",
+        "url": "https://anyflip.com/qvaza/rxzj/",
+        "created_at": "2024-08-28T03:34:54.837Z",
+        "updated_at": "2024-08-28T03:34:54.837Z"
+    }
+},
+{
+    "model": "buku.bukuanyflip",
+    "pk": 43,
+    "fields": {
+        "kategori": 4,
+        "lembaga": 7,
+        "nama": "BUKU PANDUAN FAKULTAS TEKNIK 2022/2023",
+        "url": "https://anyflip.com/qvaza/ojgb/",
+        "created_at": "2024-08-28T03:34:54.844Z",
+        "updated_at": "2024-08-28T03:34:54.844Z"
+    }
+},
+{
+    "model": "buku.bukuanyflip",
+    "pk": 44,
+    "fields": {
+        "kategori": 4,
+        "lembaga": 8,
+        "nama": "BUKU PANDUAN FAKULTAS ILMU KESEHATAN 2022/2023",
+        "url": "https://anyflip.com/qvaza/gtpp/",
+        "created_at": "2024-08-28T03:34:54.849Z",
+        "updated_at": "2024-08-28T03:34:54.849Z"
+    }
+},
+{
+    "model": "buku.bukuanyflip",
+    "pk": 45,
+    "fields": {
+        "kategori": 4,
+        "lembaga": 9,
+        "nama": "BUKU PANDUAN FAKULTAS EKONOMI DAN BISNIS 2022/2023",
+        "url": "https://anyflip.com/qvaza/spxe/",
+        "created_at": "2024-08-28T03:34:54.855Z",
+        "updated_at": "2024-08-28T03:34:54.855Z"
+    }
+},
+{
+    "model": "buku.bukuanyflip",
+    "pk": 46,
+    "fields": {
+        "kategori": 4,
+        "lembaga": 10,
+        "nama": "BUKU PANDUAN FAKULTAS FARMASI 2022/2023",
+        "url": "https://anyflip.com/qvaza/lzhr/",
+        "created_at": "2024-08-28T03:34:54.860Z",
+        "updated_at": "2024-08-28T03:34:54.860Z"
+    }
+},
+{
+    "model": "buku.bukuanyflip",
+    "pk": 47,
+    "fields": {
+        "kategori": 4,
+        "lembaga": 11,
+        "nama": "BUKU PANDUAN FAKULTAS HUKUM 2022/2023",
+        "url": "https://anyflip.com/qvaza/jdab/",
+        "created_at": "2024-08-28T03:34:54.865Z",
+        "updated_at": "2024-08-28T03:34:54.865Z"
+    }
+},
+{
+    "model": "buku.bukuanyflip",
+    "pk": 48,
+    "fields": {
+        "kategori": 4,
+        "lembaga": 12,
+        "nama": "BUKU PANDUAN FAKULTAS KEDOKTERAN GIGI 2022/2023",
+        "url": "https://anyflip.com/qvaza/fqgj/",
+        "created_at": "2024-08-28T03:34:54.871Z",
+        "updated_at": "2024-08-28T03:34:54.871Z"
+    }
+},
+{
+    "model": "buku.bukuanyflip",
+    "pk": 49,
+    "fields": {
+        "kategori": 5,
+        "lembaga": 1,
+        "nama": "BUKU PANDUAN FAKULTAS KEGURUAN DAN ILMU PENDIDIKAN 2023/2024",
+        "url": "https://anyflip.com/qvaza/qqoc/",
+        "created_at": "2024-08-28T03:34:54.875Z",
+        "updated_at": "2024-08-28T03:34:54.876Z"
+    }
+},
+{
+    "model": "buku.bukuanyflip",
+    "pk": 50,
+    "fields": {
+        "kategori": 5,
+        "lembaga": 2,
+        "nama": "BUKU PANDUAN FAKULTAS AGAMA ISLAM 2023/2024",
+        "url": "https://anyflip.com/qvaza/qypo/",
+        "created_at": "2024-08-28T03:34:54.880Z",
+        "updated_at": "2024-08-28T03:34:54.880Z"
+    }
+},
+{
+    "model": "buku.bukuanyflip",
+    "pk": 51,
+    "fields": {
+        "kategori": 5,
+        "lembaga": 3,
+        "nama": "BUKU PANDUAN FAKULTAS PSIKOLOGI 2023/2024",
+        "url": "https://anyflip.com/qvaza/enie/",
+        "created_at": "2024-08-28T03:34:54.886Z",
+        "updated_at": "2024-08-28T03:34:54.886Z"
+    }
+},
+{
+    "model": "buku.bukuanyflip",
+    "pk": 52,
+    "fields": {
+        "kategori": 5,
+        "lembaga": 4,
+        "nama": "BUKU PANDUAN FAKULTAS KEDOKTERAN 2023/2024",
+        "url": "https://anyflip.com/qvaza/dglx/",
+        "created_at": "2024-08-28T03:34:54.891Z",
+        "updated_at": "2024-08-28T03:34:54.891Z"
+    }
+},
+{
+    "model": "buku.bukuanyflip",
+    "pk": 53,
+    "fields": {
+        "kategori": 5,
+        "lembaga": 5,
+        "nama": "BUKU PANDUAN FAKULTAS KOMUNIKASI DAN INFORMATIKA 2023/2024",
+        "url": "https://anyflip.com/qvaza/gpuw/",
+        "created_at": "2024-08-28T03:34:54.897Z",
+        "updated_at": "2024-08-28T03:34:54.897Z"
+    }
+},
+{
+    "model": "buku.bukuanyflip",
+    "pk": 54,
+    "fields": {
+        "kategori": 5,
+        "lembaga": 6,
+        "nama": "BUKU PANDUAN FAKULTAS GEOGRAFI 2023/2024",
+        "url": "https://anyflip.com/qvaza/yotv/",
+        "created_at": "2024-08-28T03:34:54.903Z",
+        "updated_at": "2024-08-28T03:34:54.903Z"
+    }
+},
+{
+    "model": "buku.bukuanyflip",
+    "pk": 55,
+    "fields": {
+        "kategori": 5,
+        "lembaga": 7,
+        "nama": "BUKU PANDUAN FAKULTAS TEKNIK 2023/2024",
+        "url": "https://anyflip.com/qvaza/rfoy/",
+        "created_at": "2024-08-28T03:34:54.909Z",
+        "updated_at": "2024-08-28T03:34:54.909Z"
+    }
+},
+{
+    "model": "buku.bukuanyflip",
+    "pk": 56,
+    "fields": {
+        "kategori": 5,
+        "lembaga": 8,
+        "nama": "BUKU PANDUAN FAKULTAS ILMU KESEHATAN 2023/2024",
+        "url": "https://anyflip.com/qvaza/toqd/",
+        "created_at": "2024-08-28T03:34:54.914Z",
+        "updated_at": "2024-08-28T03:34:54.914Z"
+    }
+},
+{
+    "model": "buku.bukuanyflip",
+    "pk": 57,
+    "fields": {
+        "kategori": 5,
+        "lembaga": 9,
+        "nama": "BUKU PANDUAN FAKULTAS EKONOMI DAN BISNIS 2023/2024",
+        "url": "https://anyflip.com/qvaza/psnf/",
+        "created_at": "2024-08-28T03:34:54.919Z",
+        "updated_at": "2024-08-28T03:34:54.919Z"
+    }
+},
+{
+    "model": "buku.bukuanyflip",
+    "pk": 58,
+    "fields": {
+        "kategori": 5,
+        "lembaga": 10,
+        "nama": "BUKU PANDUAN FAKULTAS FARMASI 2023/2024",
+        "url": "https://anyflip.com/qvaza/bizs/",
+        "created_at": "2024-08-28T03:34:54.924Z",
+        "updated_at": "2024-08-28T03:34:54.924Z"
+    }
+},
+{
+    "model": "buku.bukuanyflip",
+    "pk": 59,
+    "fields": {
+        "kategori": 5,
+        "lembaga": 11,
+        "nama": "BUKU PANDUAN FAKULTAS HUKUM 2023/2024",
+        "url": "https://anyflip.com/qvaza/dslt/",
+        "created_at": "2024-08-28T03:34:54.930Z",
+        "updated_at": "2024-08-28T03:34:54.930Z"
+    }
+},
+{
+    "model": "buku.bukuanyflip",
+    "pk": 60,
+    "fields": {
+        "kategori": 5,
+        "lembaga": 12,
+        "nama": "BUKU PANDUAN FAKULTAS KEDOKTERAN GIGI 2023/2024",
+        "url": "https://anyflip.com/qvaza/xjrt/",
+        "created_at": "2024-08-28T03:34:54.934Z",
+        "updated_at": "2024-08-28T03:34:54.934Z"
+    }
+},
+{
+    "model": "buku.bukuanyflip",
+    "pk": 61,
+    "fields": {
+        "kategori": 6,
+        "lembaga": 1,
+        "nama": "BUKU PANDUAN FAKULTAS KEGURUAN DAN ILMU PENDIDIKAN 2024/2025",
+        "url": "https://anyflip.com/qvaza/cwnz/",
+        "created_at": "2024-08-28T03:34:54.939Z",
+        "updated_at": "2024-08-28T03:34:54.939Z"
+    }
+},
+{
+    "model": "buku.bukuanyflip",
+    "pk": 62,
+    "fields": {
+        "kategori": 6,
+        "lembaga": 2,
+        "nama": "BUKU PANDUAN FAKULTAS AGAMA ISLAM 2024/2025",
+        "url": "https://anyflip.com/qvaza/iqsc/",
+        "created_at": "2024-08-28T03:34:54.944Z",
+        "updated_at": "2024-08-28T03:34:54.944Z"
+    }
+},
+{
+    "model": "buku.bukuanyflip",
+    "pk": 63,
+    "fields": {
+        "kategori": 6,
+        "lembaga": 3,
+        "nama": "BUKU PANDUAN FAKULTAS PSIKOLOGI 2024/2025",
+        "url": "https://anyflip.com/qvaza/ickm/",
+        "created_at": "2024-08-28T03:34:54.952Z",
+        "updated_at": "2024-08-28T03:34:54.952Z"
+    }
+},
+{
+    "model": "buku.bukuanyflip",
+    "pk": 64,
+    "fields": {
+        "kategori": 6,
+        "lembaga": 4,
+        "nama": "BUKU PANDUAN FAKULTAS KEDOKTERAN 2024/2025",
+        "url": "https://anyflip.com/qvaza/zvoz/",
+        "created_at": "2024-08-28T03:34:54.957Z",
+        "updated_at": "2024-08-28T03:34:54.957Z"
+    }
+},
+{
+    "model": "buku.bukuanyflip",
+    "pk": 65,
+    "fields": {
+        "kategori": 6,
+        "lembaga": 5,
+        "nama": "BUKU PANDUAN FAKULTAS KOMUNIKASI DAN INFORMATIKA 2024/2025",
+        "url": "https://anyflip.com/qvaza/rcop/",
+        "created_at": "2024-08-28T03:34:54.964Z",
+        "updated_at": "2024-08-28T03:34:54.964Z"
+    }
+},
+{
+    "model": "buku.bukuanyflip",
+    "pk": 66,
+    "fields": {
+        "kategori": 6,
+        "lembaga": 6,
+        "nama": "BUKU PANDUAN FAKULTAS GEOGRAFI 2024/2025",
+        "url": "https://anyflip.com/qvaza/vqor/",
+        "created_at": "2024-08-28T03:34:54.969Z",
+        "updated_at": "2024-08-28T03:34:54.969Z"
+    }
+},
+{
+    "model": "buku.bukuanyflip",
+    "pk": 67,
+    "fields": {
+        "kategori": 6,
+        "lembaga": 7,
+        "nama": "BUKU PANDUAN FAKULTAS TEKNIK 2024/2025",
+        "url": "https://anyflip.com/qvaza/efmt/",
+        "created_at": "2024-08-28T03:34:54.974Z",
+        "updated_at": "2024-08-28T03:34:54.974Z"
+    }
+},
+{
+    "model": "buku.bukuanyflip",
+    "pk": 68,
+    "fields": {
+        "kategori": 6,
+        "lembaga": 8,
+        "nama": "BUKU PANDUAN FAKULTAS ILMU KESEHATAN 2024/2025",
+        "url": "https://anyflip.com/qvaza/krtl/",
+        "created_at": "2024-08-28T03:34:54.979Z",
+        "updated_at": "2024-08-28T03:34:54.979Z"
+    }
+},
+{
+    "model": "buku.bukuanyflip",
+    "pk": 69,
+    "fields": {
+        "kategori": 6,
+        "lembaga": 9,
+        "nama": "BUKU PANDUAN FAKULTAS EKONOMI DAN BISNIS 2024/2025",
+        "url": "https://anyflip.com/qvaza/zifa/",
+        "created_at": "2024-08-28T03:34:54.987Z",
+        "updated_at": "2024-08-28T03:34:54.987Z"
+    }
+},
+{
+    "model": "buku.bukuanyflip",
+    "pk": 70,
+    "fields": {
+        "kategori": 6,
+        "lembaga": 10,
+        "nama": "BUKU PANDUAN FAKULTAS FARMASI 2024/2025",
+        "url": "https://anyflip.com/qvaza/jkkw/",
+        "created_at": "2024-08-28T03:34:54.993Z",
+        "updated_at": "2024-08-28T03:34:54.993Z"
+    }
+},
+{
+    "model": "buku.bukuanyflip",
+    "pk": 71,
+    "fields": {
+        "kategori": 6,
+        "lembaga": 11,
+        "nama": "BUKU PANDUAN FAKULTAS HUKUM 2024/2025",
+        "url": "https://anyflip.com/qvaza/wwaz/",
+        "created_at": "2024-08-28T03:34:55.000Z",
+        "updated_at": "2024-08-28T03:34:55.000Z"
+    }
+},
+{
+    "model": "buku.bukuanyflip",
+    "pk": 72,
+    "fields": {
+        "kategori": 6,
+        "lembaga": 12,
+        "nama": "BUKU PANDUAN FAKULTAS KEDOKTERAN GIGI 2024/2025",
+        "url": "https://anyflip.com/qvaza/kerg/",
+        "created_at": "2024-08-28T03:34:55.006Z",
+        "updated_at": "2024-08-28T03:34:55.006Z"
+    }
+}
+]

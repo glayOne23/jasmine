@@ -22,8 +22,8 @@
       <a href="{% url 'landingpage:beranda' %}" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.png" alt=""> -->
-        <img src="{% static 'impact/assets/img/logo/logo.png' %}"> 
-        <h1> 
+        <img src="{% static 'impact/assets/img/logo/logo.png' %}">
+        <h1>
           Jasmine
           <!-- <span>.</span> -->
         </h1>
@@ -34,6 +34,7 @@
           <li><a class="{% if page == 'buku' %}active{% endif %}" href="{% url 'landingpage:buku' %}">Buku</a></li>
           <li><a href="{% url 'landingpage:beranda' %}#penerbitan">Penerbitan & Cetak</a></li>
           <li><a href="#">Tentang Kami</a></li>
+          <li><a class="{% if page == 'pedoman-akademik' %}active{% endif %}" href="{% url 'landingpage:akademik.index' %}">Pedoman Akademik</a></li>
         </ul>
       </nav><!-- .navbar -->
 

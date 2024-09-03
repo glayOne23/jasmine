@@ -1,0 +1,110 @@
+[
+{
+    "model": "buku.lembaga",
+    "pk": 1,
+    "fields": {
+        "nama": "FAKULTAS KEGURUAN DAN ILMU PENDIDIKAN",
+        "created_at": "2024-08-28T02:45:09.716Z",
+        "updated_at": "2024-08-28T02:45:09.716Z"
+    }
+},
+{
+    "model": "buku.lembaga",
+    "pk": 2,
+    "fields": {
+        "nama": "FAKULTAS AGAMA ISLAM",
+        "created_at": "2024-08-28T02:45:19.318Z",
+        "updated_at": "2024-08-28T02:45:19.319Z"
+    }
+},
+{
+    "model": "buku.lembaga",
+    "pk": 3,
+    "fields": {
+        "nama": "FAKULTAS PSIKOLOGI",
+        "created_at": "2024-08-28T02:45:25.493Z",
+        "updated_at": "2024-08-28T02:45:25.493Z"
+    }
+},
+{
+    "model": "buku.lembaga",
+    "pk": 4,
+    "fields": {
+        "nama": "FAKULTAS KEDOKTERAN",
+        "created_at": "2024-08-28T02:45:31.087Z",
+        "updated_at": "2024-08-28T02:45:31.087Z"
+    }
+},
+{
+    "model": "buku.lembaga",
+    "pk": 5,
+    "fields": {
+        "nama": "FAKULTAS KOMUNIKASI DAN INFORMATIKA",
+        "created_at": "2024-08-28T02:45:35.767Z",
+        "updated_at": "2024-08-28T02:45:35.767Z"
+    }
+},
+{
+    "model": "buku.lembaga",
+    "pk": 6,
+    "fields": {
+        "nama": "FAKULTAS GEOGRAFI",
+        "created_at": "2024-08-28T02:45:40.431Z",
+        "updated_at": "2024-08-28T02:45:40.431Z"
+    }
+},
+{
+    "model": "buku.lembaga",
+    "pk": 7,
+    "fields": {
+        "nama": "FAKULTAS TEKNIK",
+        "created_at": "2024-08-28T02:45:46.085Z",
+        "updated_at": "2024-08-28T02:45:46.085Z"
+    }
+},
+{
+    "model": "buku.lembaga",
+    "pk": 8,
+    "fields": {
+        "nama": "FAKULTAS ILMU KESEHATAN",
+        "created_at": "2024-08-28T02:45:51.336Z",
+        "updated_at": "2024-08-28T02:45:51.336Z"
+    }
+},
+{
+    "model": "buku.lembaga",
+    "pk": 9,
+    "fields": {
+        "nama": "FAKULTAS EKONOMI DAN BISNIS",
+        "created_at": "2024-08-28T02:45:56.771Z",
+        "updated_at": "2024-08-28T02:45:56.771Z"
+    }
+},
+{
+    "model": "buku.lembaga",
+    "pk": 10,
+    "fields": {
+        "nama": "FAKULTAS FARMASI",
+        "created_at": "2024-08-28T02:46:03.281Z",
+        "updated_at": "2024-08-28T02:46:03.281Z"
+    }
+},
+{
+    "model": "buku.lembaga",
+    "pk": 11,
+    "fields": {
+        "nama": "FAKULTAS HUKUM",
+        "created_at": "2024-08-28T02:46:08.186Z",
+        "updated_at": "2024-08-28T02:46:08.186Z"
+    }
+},
+{
+    "model": "buku.lembaga",
+    "pk": 12,
+    "fields": {
+        "nama": "FAKULTAS KEDOKTERAN GIGI",
+        "created_at": "2024-08-28T02:46:13.040Z",
+        "updated_at": "2024-08-28T02:46:13.040Z"
+    }
+}
+]
