@@ -7,7 +7,7 @@ def index(request):
     context = {}
 
     # ===[Fetch Data]===
-    context['kategoris'] = KategoriBukuAnyFlip.objects.all().order_by('-id')
+    context['kategoris'] = KategoriBukuAnyFlip.objects.filter(nama="BUKU PANDUAN AKADEMIK UNIVERSITAS MUHAMMADIYAH SURAKARTA TAHUN AKADEMIK 2024/2025").order_by('-id')
 
     # ===[Render Template]===
     context['page'] = 'pedoman-akademik'
